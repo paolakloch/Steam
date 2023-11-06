@@ -53,7 +53,7 @@ header {
 
 #banner {
   height: 453px;
-  background: url(../assets/images/phasmofobioa.jpg) black;
+  background: url(./assets/images/phasmofobioa.jpg) black;
   background-position: center;
   background: fill;
   background-repeat: no-repeat;
