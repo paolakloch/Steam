@@ -13,7 +13,7 @@ header {
 }
 
 .content {
-  width: 1500px;
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -61,7 +61,8 @@ header {
 }
 
 .header-menu-list-submenu {
-  position: absolute; /* em relacao a qual posicao? */
+  position: absolute;
+  /* em relacao a qual posicao? */
   width: 130px;
   opacity: 0;
   pointer-events: none;
@@ -82,40 +83,19 @@ header {
   color: black;
 }
 
-#header-menu-list li:hover > .header-menu-list-submenu {
+#header-menu-list li:hover>.header-menu-list-submenu {
   opacity: 1;
   pointer-events: all;
 }
- 
-.header-download {
-  height: 30px;
-  width: 300px !important;
-  margin: 25px;
-  display: flex;
-  padding-left: 40px;
-  padding-right: 30px;
-  padding-top: 7px;
-  margin-left: 300px;
-  background-position: 10px center !important;
-  background-position: 0px 5px;
-  background-image: url(https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
-  background-repeat: no-repeat; 
-  color: #e5e4dc;
-  background-color: green;
-  position: relative;
-  line-height: 24px;
-  cursor: pointer;
+
+.header-login{
+  color: white;
 }
 
-.icones-header{
-   display: flex;
-  color: aliceblue;
- margin: 35px;
-  margin-left: 50px;
-  cursor: pointer;
-}
-.icones-header ul{
-  width: 150px;
-  margin: 0px 50px 0px 0px;
+#btn-instal{
+  font-size: 11px;
 
+}
+#header-login-list li{
+  font-size: 11px;
 }
